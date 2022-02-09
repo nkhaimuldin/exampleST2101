@@ -19,4 +19,8 @@ public class JumpingSwimmer extends Swimmer implements IJumpingAthlete {
     public void jump() {
         System.out.println("Started jumping");
     }
+
+    public void done() {
+        System.out.println("Done");
+    }
 }
